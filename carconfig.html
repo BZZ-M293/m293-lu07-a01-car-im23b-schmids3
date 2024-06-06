@@ -8,7 +8,37 @@
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
+<form action="https://it.bzz.ch/demo/formdata/index.php">
+  <label>Fahrzeugmodelle:
+    <select name="Fahrzeugmodelle" size="5">
+      <option>BMW</option>
+      <option>Ford</option>
+      <option>Ferrari</option>
+      <option>Opel</option>
+      <option>Lamborghini</option>
+      <option>Bugatti</option>
+      <option>Tesla</option>
+      <option>Audi</option>
+      <option>Bentley</option>
+      <option>Brabus</option>
+      <option>Chevrolet</option>
+      <option>Dacia</option>
+      <option>Dodge</option>
+      <option>Jaguar</option>
+      <option>Porsche</option>
+    </select>
+  </label>
 
-
+  <label>Lackfarbe:
+    <input type="radio" id="bl" name="Farbe" value="Schwarz">
+    <label for="bl"> Schwarz</label>
+    <input type="radio" id="re" name="Farbe" value="Rot">
+    <label for="re"> Rot</label>
+    <input type="radio" id="wh" name="Farbe" value="Weiss">
+    <label for="wh"> Weiss</label>
+  </label>
+  <button type="submit">Absenden</button>
+  <button type="reset">Zurücksetzen</button>
+</form>
 </body>
 </html>
